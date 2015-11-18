@@ -1,0 +1,14 @@
+<head>
+  <title>microscope</title>
+</head>
+
+<body>
+  <h1>Welcome Walid!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed {{counter}} times.</p>
+</template>
